@@ -6,7 +6,9 @@
                     {{ project.title }}
                 </h3>
             </router-link>
-            <p class="mt-1 max-w-2xl text-sm text-gray-500"> Manager Name .</p>
+            <p class="mt-1 max-w-2xl text-sm text-gray-500">
+                {{ project.manager.name }}
+            </p>
         </div>
         <div class="border-t border-gray-200">
             <dl>
